@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "https://www.schemastore.org/github-workflow.json": "file:///.github/workflows/publish"
+    },
+    "editor.formatOnSave": true,
+    "restructuredtext.editor.listEditing.list.indentationSize": "inherit",
+    "restructuredtext.experimental": true,
+}

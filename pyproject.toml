@@ -1,0 +1,17 @@
+[project]
+name = "blog-v3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "doc8>=2.0.0",
+    "esbonio>=0.16.5",
+    "requests>=2.32.4",
+    "rstcheck>=6.2.5",
+    "sphinx>=8.2.3",
+    "sphinxnotes-strike>=1.2.1",
+]
+
+[dependency-groups]
+dev = ["pip>=25.1.1"]
