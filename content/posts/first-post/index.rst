@@ -12,8 +12,6 @@ Lorem ipsum dolor sit amet, *consectetur* adipiscing elit. Pellentesque **habita
 - Sed fringilla mauris sit amet nibh.
 
 
-.. _my-section-reference:
-
 Foo bar baz
 -----------
 
