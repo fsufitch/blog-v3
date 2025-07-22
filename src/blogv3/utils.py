@@ -2,7 +2,6 @@ from pathlib import Path
 
 import docutils.nodes as N
 import git
-import sphinx.addnodes
 import sphinx.util.logging
 from sphinx.application import Sphinx
 

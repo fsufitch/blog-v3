@@ -1,7 +1,7 @@
 FROM docker.io/debian:stable AS base
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends make pipx sudo && \
+    apt-get install -y --no-install-recommends git make pipx sudo && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
@@ -35,12 +35,17 @@ USER developer
 RUN mkdir -p /home/developer/blog-v3
 WORKDIR /home/developer/blog-v3
 
-COPY pyproject.toml uv.lock ./
-RUN pwd && ls && uv sync --locked --all-extras --dev
+COPY --chown=developer:developer pyproject.toml uv.lock ./
+RUN uv sync --locked --dev --no-install-project
 
-COPY . .
+COPY --chown=developer:developer .git .git
+COPY --chown=developer:developer content content
+COPY --chown=developer:developer src src
+COPY --chown=developer:developer Makefile pyproject.toml README.md uv.lock ./
 
-RUN uv run make html && tar -cvvf build/html.tar -C build html
+RUN uv sync --locked --dev
+RUN uv run make html
+RUN tar -cvvf build/html.tar -C build html
 
 
 FROM scratch AS artifact

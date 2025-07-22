@@ -1,5 +1,5 @@
 [project]
-name = "blog-v3"
+name = "blogv3"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -21,9 +21,8 @@ dependencies = [
     "sphinxnotes-strike>=1.2.1",
 ]
 
-[tool.setuptools]
-package-dir = { "" = "src" }
-packages = ["blogv3"]
+[tool.uv.build-backend]
+module_name = "blogv3"
 
 [tool.flake8]
 ignore = [
@@ -31,8 +30,8 @@ ignore = [
 ]
 
 [build-system]
-requires = ["setuptools>=42"]
-build-backend = "setuptools.build_meta"
+requires = ["uv_build>=0.8.0,<0.9.0"]
+build-backend = "uv_build"
 
 [dependency-groups]
 dev = [
