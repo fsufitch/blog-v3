@@ -1,25 +1,11 @@
-:title: First Post Please Ignore
-:date: 2025-06-21
-:slug: first-post-please-ignore
-
-
-
-.. index::
-   single: Filip Sufitchi's Blog
-   single: 2025-06-21
-
 First Post Please Ignore
 ========================
 
 
-.. my_reference:
 
 Lorem ipsum dolor sit amet, *consectetur* adipiscing elit. Pellentesque **habitant morbi** tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
 
-.. foobar::
 
-
-Today's date is: |today|.
 
 - Etiam sit amet orci eget eros faucibus tincidunt.
 - Duis leo.
