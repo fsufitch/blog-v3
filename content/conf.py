@@ -19,6 +19,7 @@ extensions = [
     "sphinx.ext.githubpages",
     "sphinxnotes.strike",
     "sphinx.ext.todo",
+    "sphinx.ext.graphviz",
     "sphinx_copybutton",
     "sphinx_prompt",
     "sphinxemoji.sphinxemoji",
