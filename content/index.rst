@@ -6,7 +6,7 @@ This is a stanging area for building out a new (yet another) blog. It uses Sphin
 There's going to be more details here, fancier styling, etc... as I get around to it. For now, this is just a placeholder.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Table of Contents
    :glob:
    :use-dates:
