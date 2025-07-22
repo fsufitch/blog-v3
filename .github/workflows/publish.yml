@@ -12,7 +12,7 @@ on:
 concurrency:
   # This concurrency group ensures that only one workflow run for this workflow
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
