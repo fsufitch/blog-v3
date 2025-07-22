@@ -23,6 +23,7 @@ extensions = [
     "sphinx_prompt",
     "sphinxemoji.sphinxemoji",
     "sphinx_gitstamp",
+    "sphinx_tags",
     "blogv3.sphinx_extension",
 ]
 

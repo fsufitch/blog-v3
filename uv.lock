@@ -82,6 +82,7 @@ dependencies = [
     { name = "sphinx-gitstamp" },
     { name = "sphinx-prompt" },
     { name = "sphinx-readable-theme" },
+    { name = "sphinx-tags" },
     { name = "sphinxemoji" },
     { name = "sphinxnotes-strike" },
 ]
@@ -108,6 +109,7 @@ requires-dist = [
     { name = "sphinx-gitstamp", specifier = ">=0.4.0" },
     { name = "sphinx-prompt", specifier = ">=1.10.0" },
     { name = "sphinx-readable-theme", specifier = ">=1.3.0" },
+    { name = "sphinx-tags", specifier = ">=0.4" },
     { name = "sphinxemoji", specifier = ">=0.3.1" },
     { name = "sphinxnotes-strike", specifier = ">=1.2.1" },
 ]
@@ -813,6 +815,18 @@ name = "sphinx-readable-theme"
 version = "1.3.0"
 source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/59/05/03ef2bd61c472df2a1485a33bd826a8af7f996d1ed5426b749bc958d0e6a/sphinx-readable-theme-1.3.0.tar.gz", hash = "sha256:f5fe65a2e112cb956b366df41e0fc894ff6b6f0e4a4814fcbff692566db47fc0", size = 11513, upload-time = "2015-03-27T08:49:18.102Z" }
+
+[[package]]
+name = "sphinx-tags"
+version = "0.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "sphinx" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/10/de/cd7669ce4619bf03418d428b4e68f20bc90f9de0d9ed36b1d43147d6e96d/sphinx_tags-0.4.tar.gz", hash = "sha256:3065219bacf47567c706f2237d5665b22f3a5167367b4c4568bcda4371a5359d", size = 15292, upload-time = "2024-07-08T15:43:24.068Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/70/71/1fb5aa2013e04d36e6940b308e65608a48e2d5f59f2a21c98f01f2ce0b85/sphinx_tags-0.4-py2.py3-none-any.whl", hash = "sha256:af31203fe4e0ebd39cb95d4fef38720185def6af9fdb921b70275ff659a5dac5", size = 7231, upload-time = "2024-07-08T15:43:23.077Z" },
+]
 
 [[package]]
 name = "sphinxcontrib-applehelp"
