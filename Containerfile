@@ -1,7 +1,7 @@
 FROM docker.io/debian:stable AS base
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends git make pipx sudo && \
+    apt-get install -y --no-install-recommends git graphviz make pipx sudo && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
