@@ -1,6 +1,6 @@
 from sphinx.application import Sphinx
 
-from blogv3.dated_toc import DatedTocTree, DatedTocPostTransform
+from blogv3.dated_toc import DatedTocPostTransform, DatedTocTree
 
 
 def setup(sphinx: Sphinx) -> None:

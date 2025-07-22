@@ -1,15 +1,12 @@
 from datetime import datetime
 from typing import Literal
-from unittest import result
-from docutils.nodes import Node
-from sphinx.directives.other import TocTree
-from sphinx.transforms.post_transforms import SphinxPostTransform
-from docutils.parsers.rst import directives as D
-
 
 import sphinx.addnodes
-
 import sphinx.util.logging
+from docutils.nodes import Node
+from docutils.parsers.rst import directives as D
+from sphinx.directives.other import TocTree
+from sphinx.transforms.post_transforms import SphinxPostTransform
 
 from blogv3.utils import get_latest_commit, get_title
 
