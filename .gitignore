@@ -1,2 +1,15 @@
+# Python stuff
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+*.whl
 .venv/
+dist/
+
+# Sphinx build dir
 build/
+

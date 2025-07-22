@@ -10,6 +10,7 @@ documentation for details.
    :maxdepth: 2
    :caption: Contents:
    :glob:
+   :use-dates:
 
    posts/*/index
 

@@ -23,6 +23,7 @@ extensions = [
     "sphinx_prompt",
     "sphinxemoji.sphinxemoji",
     "sphinx_gitstamp",
+    "blogv3.sphinx_extension",
 ]
 
 templates_path = ["_templates"]
