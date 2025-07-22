@@ -22,6 +22,3 @@ There's going to be more details here, fancier styling, etc... as I get around t
 
 .. [#f1] Yes, I know Sphinx is made for technical documentation, not blogging. No, I don't care.
 
-
-
-.. footer:: Generated on: |:today:|.
