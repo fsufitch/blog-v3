@@ -125,8 +125,6 @@ class DatedTocPostTransform(SphinxPostTransform):
         elif toctree.attributes.get("date-sort") == "desc":
             new_entries.sort(key=lambda x: x[1] or datetime.min, reverse=True)
 
-        print(new_entries)
-
         result_entries: list[tuple[str, str]] = []
         for dt, ref, title in new_entries:
             if dt is None:
@@ -135,7 +133,5 @@ class DatedTocPostTransform(SphinxPostTransform):
                 formatted_date = dt.strftime(date_format)
                 result_entries.append((f"[{formatted_date}] {title}", ref))
 
-        print(result_entries)
-        print(ignored_entries)
         result_entries.extend(ignored_entries)
         toctree["entries"] = result_entries

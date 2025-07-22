@@ -21,7 +21,7 @@ Foo bar baz
    This is a note directive. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
 
 1. Curabitur ullamcorper ultricies nisi.
-2. Nam eget dui. Talking about [index]_.
+2. Nam eget dui.
 3. Etiam rhoncus.
 
 ::
