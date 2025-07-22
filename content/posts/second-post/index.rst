@@ -24,9 +24,16 @@ Below is a simple graph using the ``graphviz`` directive:
 .. graphviz::
 
    digraph G {
-       A -> B;
-       B -> C;
-       C -> A;
+      "Scissors" -> "Paper";
+      "Scissors" -> "Lizard";
+      "Paper" -> "Rock";
+      "Paper" -> "Spock";
+      "Rock" -> "Scissors";
+      "Rock" -> "Lizard";
+      "Lizard" -> "Spock";
+      "Lizard" -> "Paper";
+      "Spock" -> "Scissors";
+      "Spock" -> "Rock";
    }
 
 Figure Example

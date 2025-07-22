@@ -1,3 +1,5 @@
+import sphinx_readable_theme
+
 # Configuration file for the Sphinx documentation builder.
 #
 # For the full list of built-in configuration values, see the documentation:
@@ -39,7 +41,6 @@ todo_include_todos = True
 
 # html_theme = "readable"
 
-import sphinx_readable_theme
 
 html_theme = "readable"
 html_theme_path = [sphinx_readable_theme.get_html_theme_path()]

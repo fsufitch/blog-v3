@@ -90,10 +90,12 @@ dependencies = [
 [package.dev-dependencies]
 dev = [
     { name = "black" },
+    { name = "esbonio" },
     { name = "flake8" },
     { name = "flake8-pyproject" },
     { name = "isort" },
     { name = "pip" },
+    { name = "rstcheck" },
 ]
 
 [package.metadata]
@@ -117,10 +119,12 @@ requires-dist = [
 [package.metadata.requires-dev]
 dev = [
     { name = "black", specifier = ">=25.1.0" },
+    { name = "esbonio", specifier = ">=0.16.5" },
     { name = "flake8", specifier = ">=7.3.0" },
     { name = "flake8-pyproject", specifier = ">=1.2.3" },
     { name = "isort", specifier = ">=6.0.1" },
     { name = "pip", specifier = ">=25.1.1" },
+    { name = "rstcheck", specifier = ">=6.2.5" },
 ]
 
 [[package]]
